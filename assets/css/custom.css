@@ -44,3 +44,15 @@ blockquote {
 body {
   background-color: var(--main-background);
 }
+
+/** has very poor contrast, so overriding to be slightly better */
+html.dark
+  .alert-warning,
+  .alert-secondary,
+  .alert-success,
+  .alert-warning,
+  .alert-danger
+{
+  color: var(--main-background)
+}
+

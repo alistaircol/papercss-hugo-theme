@@ -1,8 +1,3 @@
-/* base */
-body {
-  background-image: url('{{ "img/geometry2.png" | absURL }}');
-}
-
 /* anchors */
 a,
 a:visited {

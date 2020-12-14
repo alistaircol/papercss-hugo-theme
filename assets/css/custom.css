@@ -3,7 +3,7 @@ a,
 a:visited {
   color: var(--secondary-light);
   background-image: none;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* navbar */
@@ -56,3 +56,23 @@ html.dark
   color: var(--main-background)
 }
 
+.to-top {
+    opacity: 1;
+    display: inline-block;
+    padding: 1em;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+
+.to-top .paper-btn {
+    padding: .6em 1em;
+    border-top-left-radius: 185px 160px;
+    border-top-right-radius: 200px 195px;
+    border-bottom-right-radius: 160px 195px;
+    border-bottom-left-radius: 185px 190px;
+}
+
+.to-top a, .to-top a:visited {
+  color: var(--white);
+}

@@ -42,19 +42,19 @@ blockquote {
 
 /** darkmode **/
 body {
-  background-color: var(--black);
+  background-color: var(--main-background);
 }
 
 body.dark {
-    background-color: var(--black);
+    background-color: var(--main-background);
 }
 
 .paper {
-    background-color: var(--black);
+    background-color: var(--main-background);
 }
 
 nav {
-    background-color: var(--black);
+    background-color: var(--main-background);
 }
 
 .border {

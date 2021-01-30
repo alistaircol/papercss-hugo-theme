@@ -92,7 +92,7 @@ html.dark {
   --white-dark-light-80: rgba(255, 255, 255, 0.03);
   --light-dark: rgba(255, 255, 255, 0.7);
   --white: white;
-  --main-background: #41403e;
+  --main-background: #1f2937;
   --main-background-light: #c1c0bd;
   --black: black;
   --primary-text: #41403e;
@@ -515,7 +515,6 @@ hr::after {
 }
 
 .paper {
-  background-color: #41403e;
   background-color: var(--main-background);
   border: 1px solid #c1c0bd;
   box-shadow: -1px 5px 35px -9px rgba(0, 0, 0, 0.2);
